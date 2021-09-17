@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace BubbleSort
 {
@@ -36,7 +37,7 @@ namespace BubbleSort
             {
                 Console.Write(nums[i] + " ");
             }
-            
+            Console.ReadLine();
         }
     }
 }
